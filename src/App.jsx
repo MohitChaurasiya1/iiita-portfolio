@@ -9,7 +9,7 @@ import Education from "./Pages/Education/Education";
 import Research from "./Pages/Research/Research";
 import Publications from "./Pages/Publications/Publications";
 import Contact from "./Pages/Contact/Contact";
-import AchievementsAndActivities from "./Pages/Achievements&Activities/Achievements&Activities";
+import AchievementsAndActivities from "./Pages/AchievementsActivities/AchievementsActivities";
 function App() {
   return (
     <BrowserRouter>
@@ -23,7 +23,7 @@ function App() {
             <Route path="/education" element={<Education />} />
             <Route path="/research" element={<Research />} />
             <Route path="/publications" element={<Publications />} />
-            <Route path="/achievements" element={<AchivementsActivites />} />
+            <Route path="/achievements" element={<AchievementsAndActivities />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
