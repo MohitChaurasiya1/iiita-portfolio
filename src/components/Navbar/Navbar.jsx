@@ -12,7 +12,7 @@ function Navbar() {
         <li><Link to="/education">Education</Link></li>
         <li><Link to="/research">Research</Link></li>
         <li><Link to="/publications">Publications</Link></li>
-        <li><Link to="/awards">Awards</Link></li>
+        <li><Link to="/awards">Achivements & Activites</Link></li>
         <li><Link to="/contact">Contact</Link></li>
       </ul>
     </nav>
