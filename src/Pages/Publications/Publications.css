@@ -1,0 +1,83 @@
+.publications-page {
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+.publications-header {
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.publications-header h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.publications-header p {
+  max-width: 700px;
+  margin: auto;
+  color: #cbd5e1;
+}
+
+.stats-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 50px 8%;
+}
+
+.stat-card {
+  background: white;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+}
+
+.stat-card h2 {
+  color: #38bdf8;
+  font-size: 2rem;
+}
+
+.publication-section {
+  padding: 40px 8%;
+}
+
+.publication-section h2 {
+  margin-bottom: 25px;
+  color: #0f172a;
+}
+
+.publication-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.publication-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 25px;
+  transition: 0.3s;
+}
+
+.publication-card:hover {
+  border-color: #38bdf8;
+  transform: translateY(-4px);
+}
+
+.publication-card span {
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+.publication-card h3 {
+  margin: 10px 0;
+  color: #0f172a;
+}
+
+.publication-card p {
+  color: #64748b;
+}
