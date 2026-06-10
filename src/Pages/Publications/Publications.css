@@ -3,6 +3,8 @@
   background: #f8fafc;
 }
 
+/* Header */
+
 .publications-header {
   background: #0f172a;
   color: white;
@@ -19,11 +21,14 @@
   max-width: 700px;
   margin: auto;
   color: #cbd5e1;
+  line-height: 1.7;
 }
+
+/* Statistics */
 
 .stats-section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
   padding: 50px 8%;
 }
@@ -32,52 +37,151 @@
   background: white;
   text-align: center;
   padding: 30px;
-  border-radius: 10px;
+  border-radius: 12px;
   border: 1px solid #e2e8f0;
+  transition: 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  border-color: #38bdf8;
 }
 
 .stat-card h2 {
   color: #38bdf8;
   font-size: 2rem;
+  margin-bottom: 10px;
 }
 
+.stat-card p {
+  color: #64748b;
+  font-size: 1rem;
+}
+
+/* Publication Sections */
+
 .publication-section {
-  padding: 40px 8%;
+  padding: 30px 8%;
 }
 
 .publication-section h2 {
-  margin-bottom: 25px;
   color: #0f172a;
+  margin-bottom: 25px;
+  font-size: 2rem;
 }
 
+/* One Card Per Line */
+
 .publication-grid {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 
+/* Publication Cards */
+
 .publication-card {
+  width: 100%;
+
   background: white;
+
   border: 1px solid #e2e8f0;
-  border-radius: 10px;
+  border-left: 5px solid #38bdf8;
+
+  border-radius: 12px;
+
   padding: 25px;
-  transition: 0.3s;
+
+  transition: all 0.3s ease;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
 }
 
 .publication-card:hover {
+  transform: translateX(6px);
+
   border-color: #38bdf8;
-  transform: translateY(-4px);
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
 .publication-card span {
+  display: inline-block;
+
   color: #38bdf8;
-  font-weight: 600;
+
+  font-size: 15px;
+  font-weight: 700;
+
+  margin-bottom: 10px;
 }
 
 .publication-card h3 {
-  margin: 10px 0;
   color: #0f172a;
+
+  font-size: 1.25rem;
+  line-height: 1.5;
+
+  margin-bottom: 12px;
 }
 
 .publication-card p {
   color: #64748b;
+  line-height: 1.6;
+}
+
+/* Publication Metadata */
+
+.publication-meta {
+  margin-top: 10px;
+
+  color: #38bdf8 !important;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Patent Cards */
+
+.patent-card {
+  width: 100%;
+
+  background: white;
+
+  border: 1px solid #e2e8f0;
+  border-left: 5px solid #0f172a;
+
+  border-radius: 12px;
+
+  padding: 25px;
+
+  margin-bottom: 20px;
+
+  transition: all 0.3s ease;
+}
+
+.patent-card:hover {
+  transform: translateX(6px);
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .publications-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .publication-card {
+    padding: 20px;
+  }
+
+  .publication-card h3 {
+    font-size: 1.05rem;
+  }
+
+  .stats-section {
+    grid-template-columns: 1fr;
+  }
 }
