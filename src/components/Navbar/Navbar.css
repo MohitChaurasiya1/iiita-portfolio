@@ -35,3 +35,89 @@
 .nav-links a:hover {
   color: #38bdf8;
 }
+
+.mobile-menu {
+  display: none;
+}
+
+.menu-icon {
+  color: white;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .navbar {
+    height: 70px;
+    padding: 0 15px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .menu-icon {
+    font-size: 30px;
+    color: white;
+  }
+
+  .dropdown {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    width: 260px;
+
+    background: #0f172a;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px 0;
+    z-index: 1000;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .dropdown a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 14px 20px;
+
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+    transition: 0.3s;
+  }
+
+  .dropdown a:last-child {
+    border-bottom: none;
+  }
+
+  .dropdown a:visited {
+    color: white;
+  }
+
+  .dropdown a:hover {
+    background: #1e293b;
+    color: #38bdf8;
+  }
+}
