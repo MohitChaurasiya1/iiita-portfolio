@@ -178,7 +178,7 @@
 .publications h2 {
     font-size: 36px;
     margin-bottom: 40px;
-    color: #0f172a;
+    color: #2563eb;
 }
 
 .publication-container {
@@ -193,7 +193,7 @@
     background: white;
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 20px rgba(95, 95, 193, 0.08);
     text-align: left;
 }
 
@@ -231,7 +231,7 @@
 .achievements h2 {
   font-size: 48px;
   margin-bottom: 50px;
-  color: #0f172a;
+  color: #2563eb;
 }
 
 .achievement-container {

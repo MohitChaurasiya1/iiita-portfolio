@@ -29,32 +29,7 @@ function Home() {
                 </div>
             </section>
 
-            {/* Quick Statistics */}
-
-            <section className="stats">
-                <h2>Quick Statistics</h2>
-
-                <div className="stats-container">
-                    <div className="stat-card">
-                        <h3>18+</h3>
-                        <p>Publications</p>
-                    </div>
-
-                    <div className="stat-card">
-                        <h3>7+</h3>
-                        <p>Years Teaching Experience</p>
-                    </div>
-
-                    <div className="stat-card">
-                        <h3>1</h3>
-                        <p>Patent Filed</p>
-                    </div>
-
-                    <div className="stat-card">
-                        <h3>1</h3>
-                        <p>Copyright Filed</p>
-                    </div>
-                    {/* Featured Publications */}
+            {/* Featured Publications */}
 
                     <section className="publications">
                         <h2>Featured Publications</h2>
@@ -107,8 +82,6 @@ function Home() {
 
                         </div>
                     </section>
-                </div>
-            </section>
         </>
     );
 }
