@@ -1,0 +1,9 @@
+import React from 'react'
+
+function Research() {
+  return (
+    <h1>Research Interests Page</h1>
+  )
+}
+
+export default Research
