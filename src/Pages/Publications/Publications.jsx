@@ -1,122 +1,200 @@
 import "./Publications.css";
 
 function Publications() {
-  const journalPapers = [
+  const publications = [
     {
-      year: "2025",
-      title: "A diagnosis and treatment of liver diseases: integrating batch processing, rule-based event detection and explainable artificial intelligence",
-      venue: "Evolving Systems",
-      details: "SCIE Indexed, Q2, IF-2.7",
+      year: 2025,
+      title:
+        "Deep Semantics for Structured Data: Hybrid LLM-Based Models for Temporal Forecasting",
+      venue: "International Conference on Neural Information Processing",
     },
     {
-      year: "2024",
-      title: "Multimodal image fusion on ECG signals for congestive heart failure classification",
-      venue: "Multimedia Tools and Applications",
-      details: "SCIE Indexed, Q1, IF-3.6",
-    },
-    {
-      year: "2023",
-      title: "Empirical analysis of chronic disease dataset for multiclass classification using optimal feature selection-based hybrid model with spark streaming",
-      venue: "Future Generation Computer Systems",
-      details: "SCIE Indexed, Q1, IF-7.5",
-    },
-    {
-      year: "2023",
-      title: "Semantic web-based diagnosis and treatment of vector-borne diseases using SWRL rules",
-      venue: "Knowledge-Based Systems",
-      details: "SCIE Indexed, Q1, IF-8.139",
-    },
-    {
-      year: "2022",
-      title: "Forecasting COVID-19 cases using Statistical Models and Ontology-based Semantic Modelling",
+      year: 2025,
+      title:
+        "A Review of Ontology-Driven Big Data Analytics in Healthcare: Challenges, Tools, and Applications",
       venue: "arXiv",
-      details: "Preprint",
     },
     {
-      year: "2021",
-      title: "A Shrewd Artificial Neural Network-Based Hybrid Model for Pervasive Stress Detection of Students",
-      venue: "Big Data",
-      details: "SCIE Indexed, Q2, IF-4.6",
+      year: 2025,
+      title:
+        "Innovative Framework for Early Estimation of Mental Disorder Scores to Enable Timely Interventions",
+      venue:
+        "International Conference on Database and Expert Systems Applications",
     },
     {
-      year: "2021",
-      title: "Data Stream Management for CPS-based Healthcare: A Contemporary Review",
-      venue: "IETE Technical Review",
-      details: "SCIE Indexed, Q2, IF-1.9",
+      year: 2025,
+      title:
+        "Ontology-Based Forest Fire Management Using Complex Event Processing and Large Language Models",
+      venue:
+        "International Conference on Database and Expert Systems Applications",
     },
     {
-      year: "2015",
-      title: "Character Recognition using Ensemble Classifier",
-      venue: "International Journal of Computer Science & Engineering Technology",
-      details: "Journal Publication",
+      year: 2025,
+      title:
+        "A Diagnosis and Treatment of Liver Diseases: Integrating Batch Processing, Rule-Based Event Detection and Explainable Artificial Intelligence",
+      venue: "Evolving Systems",
     },
     {
-      year: "2013",
-      title: "An Optimized Approach for K-Means Clustering",
-      venue: "International Journal of Computer Applications",
-      details: "Journal Publication",
+      year: 2025,
+      title:
+        "Multimodal Image Fusion on ECG Signals for Congestive Heart Failure Classification",
+      venue: "Multimedia Tools and Applications",
     },
-  ];
+    {
+      year: 2025,
+      title:
+        "Ontology-Driven Semantic Interoperability Approach for Big Data Analytics in Healthcare IoT Systems",
+      venue:
+        "International Conference on Cloud Computing, Data Science and Engineering",
+    },
+    {
+      year: 2025,
+      title:
+        "Enhanced Melanoma Classification Using Image Masking and Customized CNN Architecture",
+      venue:
+        "Next-Generation Networks and Deployable Artificial Intelligence",
+    },
 
-  const conferencePapers = [
     {
-      year: "2025",
-      title: "Deep Semantics for Structured Data: Hybrid LLM-Based Models for Temporal Forecasting",
-      venue: "ICONIP 2025",
+      year: 2024,
+      title:
+        "Melanoma Classification using GAN Based Augmentation and Self-Supervised Feature Extraction",
+      venue: "IEEE International Conference on Big Data",
     },
     {
-      year: "2025",
-      title: "Ontology-Based Forest Fire Management Using Complex Event Processing and Large Language Models",
-      venue: "DEXA 2025",
+      year: 2024,
+      title:
+        "Diabetes Risk Prediction and Sugar Intake Management",
+      venue: "Artificial Intelligence and Information Technologies",
     },
     {
-      year: "2025",
-      title: "Innovative Framework for Early Estimation of Mental Disorder Scores to Enable Timely Interventions",
-      venue: "DEXA 2025",
+      year: 2024,
+      title:
+        "Geolocated Event Detection using Graph Mining Approach on Real-Time Multimodal Data",
+      venue:
+        "International Conference on Computing Communication and Networking Technologies",
     },
     {
-      year: "2024",
-      title: "Melanoma Classification using GAN based augmentation and Self-Supervised feature extraction",
-      venue: "IEEE BigData 2024",
+      year: 2024,
+      title:
+        "A Model Fusion Approach for Severity Prediction of Diabetes with Respect to Binary and Multiclass Classification",
+      venue: "International Journal of Information Technology",
     },
     {
-      year: "2023",
-      title: "Predicting Habitable Exoplanets in Different Star Systems Using Deep Learning",
+      year: 2024,
+      title:
+        "Diabetic Retinopathy Prediction Based on CNN and AlexNet Model",
+      venue:
+        "International Conference on Cloud Computing, Data Science and Engineering",
+    },
+
+    {
+      year: 2023,
+      title:
+        "A Personalized Cancer Diagnosis using Text Based Clinical Data with Machine Learning Models",
+      venue: "OCIT 2023",
+    },
+    {
+      year: 2023,
+      title:
+        "AI-Enabled Learning for Imbalanced Class Data using Spark Streaming Concepts",
+      venue: "OCIT 2023",
+    },
+    {
+      year: 2023,
+      title:
+        "A Decision Support System for Liver Diseases Prediction",
+      venue: "arXiv",
+    },
+    {
+      year: 2023,
+      title:
+        "Autism Spectrum Disorder Detection using Autistic Image Dataset",
+      venue: "EECSI 2023",
+    },
+    {
+      year: 2023,
+      title:
+        "Deep Neural Networks for Brain Tumor Image Segmentation and Detection",
+      venue: "EECSI 2023",
+    },
+    {
+      year: 2023,
+      title:
+        "Semantic Web-Based Diagnosis and Treatment of Vector-Borne Diseases Using SWRL Rules",
+      venue: "Knowledge-Based Systems",
+    },
+    {
+      year: 2023,
+      title:
+        "Predicting Habitable Exoplanets in Different Star-Systems Using Deep Learning Based Anomaly Detection Approach",
       venue: "IJCNN 2023",
     },
     {
-      year: "2023",
-      title: "Time Series Forecasting of ECG Data Using Transfer Learning and Customized Drift Detector",
-      venue: "SMOPS 2023",
+      year: 2023,
+      title:
+        "Empirical Analysis of Chronic Disease Dataset for Multiclass Classification Using Optimal Feature Selection Based Hybrid Model with Spark Streaming",
+      venue: "Future Generation Computer Systems",
     },
+
     {
-      year: "2022",
-      title: "An Optimized Hybrid Solution for IoT Based Lifestyle Disease Classification Using Stress Data",
+      year: 2022,
+      title:
+        "An Optimized Hybrid Solution for IoT Based Lifestyle Disease Classification Using Stress Data",
       venue: "ICONIP 2022",
     },
     {
-      year: "2022",
-      title: "Natural Language Processing and Ontology Based Decision Support System for Diabetic Patients",
+      year: 2022,
+      title:
+        "Natural Language Processing and Ontology Based Decision Support System for Diabetic Patients",
       venue: "EECSI 2022",
     },
     {
-      year: "2019",
-      title: "Classification of Physiological Signals for Emotion Recognition Using IoT",
+      year: 2022,
+      title:
+        "Forecasting COVID-19 Cases Using Statistical Models and Ontology-Based Semantic Modelling",
+      venue: "arXiv",
+    },
+    {
+      year: 2022,
+      title:
+        "Empirical Analysis of Lifelog Data using Optimal Feature Selection Based Unsupervised Logistic Regression Model",
+      venue: "arXiv",
+    },
+
+    {
+      year: 2021,
+      title:
+        "A Shrewd Artificial Neural Network-Based Hybrid Model for Pervasive Stress Detection of Students",
+      venue: "Big Data",
+    },
+    {
+      year: 2021,
+      title:
+        "Data Stream Management for CPS Based Healthcare: A Contemporary Review",
+      venue: "IETE Technical Review",
+    },
+
+    {
+      year: 2019,
+      title:
+        "Classification of Physiological Signals for Emotion Recognition Using IoT",
       venue: "EECSI 2019",
     },
-  ];
-  const patents = [
+
     {
-      year: "2026",
+      year: 2015,
       title:
-        "A Wearable Assistive System with Integrated Real-Time Health and Emotion Monitoring of Lower-Limb Disabled Persons",
-      type: "Patent Application",
+        "Character Recognition Using Ensemble Classifier",
+      venue:
+        "International Journal of Computer Science Engineering Technology",
     },
+
     {
-      year: "2026",
+      year: 2013,
       title:
-        "Ontology-Driven Knowledge Modeling for IoT-Based Health Monitoring of Wheelchair Users",
-      type: "Copyright Application",
+        "An Optimized Approach for K-Means Clustering",
+      venue: "International Journal of Computer Applications",
     },
   ];
     return (
@@ -125,80 +203,49 @@ function Publications() {
           <h1>Publications</h1>
           <p>
             Research contributions in Data Mining, Machine Learning,
-            Healthcare Analytics, Data Stream Processing, and Artificial
-            Intelligence.
+            Deep Learning, Healthcare Analytics, Data Stream Processing,
+            Semantic Web Technologies, and Artificial Intelligence.
           </p>
         </section>
 
         <section className="stats-section">
           <div className="stat-card">
-            <h2>18+</h2>
-            <p>Total Publications</p>
+            <h2>30+</h2>
+            <p>Research Publications</p>
           </div>
-
           <div className="stat-card">
-            <h2>9</h2>
+            <h2>9+</h2>
             <p>Journal Papers</p>
           </div>
 
           <div className="stat-card">
-            <h2>9</h2>
+            <h2>9+</h2>
             <p>Conference Papers</p>
           </div>
-
           <div className="stat-card">
             <h2>2</h2>
             <p>Patent & Copyright</p>
           </div>
         </section>
 
-        {/* Journal Publications */}
-
         <section className="publication-section">
-          <h2>Journal Publications (9)</h2>
+          <h2>Research Publications</h2>
 
           <div className="publication-grid">
-            {journalPapers.map((paper, index) => (
+            {publications.map((paper, index) => (
               <div key={index} className="publication-card">
-                <span>{paper.year}</span>
+                <div className="publication-year">
+                  {paper.year}
+                </div>
 
-                <h3>{paper.title}</h3>
-
-                <p>{paper.venue}</p>
-
-                <p className="publication-meta">
-                  {paper.details}
-                </p>
+                <div className="publication-content">
+                  <h3>{paper.title}</h3>
+                  <p>{paper.venue}</p>
+                </div>
               </div>
             ))}
           </div>
         </section>
-
-        {/* Conference Publications */}
-
-        <section className="publication-section">
-          <h2>Conference Publications (9)</h2>
-
-          <div className="publication-grid">
-            {conferencePapers.map((paper, index) => (
-              <div key={index} className="publication-card">
-                <span>{paper.year}</span>
-
-                <h3>{paper.title}</h3>
-
-                <p>{paper.venue}</p>
-
-                {paper.details && (
-                  <p className="publication-meta">
-                    {paper.details}
-                  </p>
-                )}
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* Patent & Copyright */}
 
         <section className="publication-section">
           <h2>Patent & Copyright Applications</h2>
@@ -207,17 +254,12 @@ function Publications() {
             <span>2026</span>
 
             <h3>
-              A Wearable Assistive System with Integrated Real-Time Health
-              and Emotion Monitoring of Lower-Limb Disabled Persons
+              A Wearable Assistive System with Integrated Real-Time
+              Health and Emotion Monitoring of Lower-Limb Disabled Persons
             </h3>
 
             <p>
               Patent Application No. 202611052999
-            </p>
-
-            <p className="publication-meta">
-              Filed under DIVYASAMPARK IHUB ROORKEE FOR DEVICES MATERIALS
-              AND TECHNOLOGY FOUNDATION
             </p>
           </div>
 
@@ -225,21 +267,17 @@ function Publications() {
             <span>2026</span>
 
             <h3>
-              Ontology-Driven Knowledge Modeling for IoT-Based Health
-              Monitoring of Wheelchair Users
+              Ontology-Driven Knowledge Modeling for IoT-Based
+              Health Monitoring of Wheelchair Users
             </h3>
 
             <p>
-              Copyright Application
-            </p>
-
-            <p className="publication-meta">
-              Diary No. LD-12519/2026-CO
+              Copyright Application (Diary No. LD-12519/2026-CO)
             </p>
           </div>
         </section>
       </div>
     );
-}
+  }
 
 export default Publications;
