@@ -8,10 +8,8 @@ import Experience from "./Pages/Experience/Experience";
 import Education from "./Pages/Education/Education";
 import Research from "./Pages/Research/Research";
 import Publications from "./Pages/Publications/Publications";
-import Awards from "./Pages/Achivements&Activites/Achivements&Activites";
 import Contact from "./Pages/Contact/Contact";
-import AchivementsActivites from "./Pages/Achivements&Activites/Achivements&Activites";
-
+import AchievementsAndActivities from "./Pages/Achievements&Activities/Achievements&Activities";
 function App() {
   return (
     <BrowserRouter>
