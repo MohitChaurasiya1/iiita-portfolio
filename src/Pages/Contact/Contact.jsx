@@ -41,7 +41,7 @@ function Contact() {
 
                     <div className="link-row">
                         <span>ResearchGate</span>
-                        <a href="#">Visit Profile</a>
+                        <a href="https://www.researchgate.net/scientific-contributions/Sadhana-Tiwari-2208709971">Visit Profile</a>
                     </div>
 
                     <div className="link-row">
@@ -51,7 +51,7 @@ function Contact() {
 
                     <div className="link-row">
                         <span>LinkedIn</span>
-                        <a href="#">Visit Profile</a>
+                        <a href="https://www.linkedin.com/in/dr-sadhana-tiwari-a06218264/?originalSubdomain=in">Visit Profile</a>
                     </div>
 
                 </div>
