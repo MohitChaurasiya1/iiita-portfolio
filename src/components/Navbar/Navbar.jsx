@@ -4,47 +4,54 @@ import { useState } from "react";
 import "./Navbar.css";
 
 function Navbar() {
-    const [showMenu, setShowMenu] = useState(false);
-    const closeMenu = () => {
-        setShowMenu(false);
-    };
+  const [showMenu, setShowMenu] = useState(false);
 
-    return (
-        <nav className="navbar">
-            <div className="logo">Dr. Sadhana Tiwari</div>
+  const handleClick = () => {
+    setShowMenu(false);
 
-            {/* Desktop Menu */}
-            <ul className="nav-links">
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/experience">Experience</Link></li>
-                <li><Link to="/education">Education</Link></li>
-                <li><Link to="/research">Research</Link></li>
-                <li><Link to="/publications">Publications</Link></li>
-                <li><Link to="/achievements">Achievements & Activities</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
-            </ul>
+    setTimeout(() => {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+      });
+    }, 100);
+  };
 
-            {/* Mobile Menu */}
-            <div className="mobile-menu">
-                <HiMenu
-                    className="menu-icon"
-                    onClick={() => setShowMenu(!showMenu)}
-                />
+  return (
+    <nav className="navbar">
+      <div className="logo">Dr. Sadhana Tiwari</div>
 
-                {showMenu && (
-                    <div className="dropdown">
-                        <Link to="/" onClick={closeMenu}>Home</Link>
-                        <Link to="/experience" onClick={closeMenu}>Experience</Link>
-                        <Link to="/education" onClick={closeMenu}>Education</Link>
-                        <Link to="/research" onClick={closeMenu}>Research</Link>
-                        <Link to="/publications" onClick={closeMenu}>Publications</Link>
-                        <Link to="/achievements" onClick={closeMenu}>Achievements & Activities</Link>
-                        <Link to="/contact" onClick={closeMenu}>Contact</Link>
-                    </div>
-                )}
-            </div>
-        </nav>
-    );
+      <ul className="nav-links">
+        <li><Link to="/" onClick={handleClick}>Home</Link></li>
+        <li><Link to="/experience" onClick={handleClick}>Experience</Link></li>
+        <li><Link to="/education" onClick={handleClick}>Education</Link></li>
+        <li><Link to="/research" onClick={handleClick}>Research</Link></li>
+        <li><Link to="/publications" onClick={handleClick}>Publications</Link></li>
+        <li><Link to="/achievements" onClick={handleClick}>Achievements & Activities</Link></li>
+        <li><Link to="/contact" onClick={handleClick}>Contact</Link></li>
+      </ul>
+
+      <div className="mobile-menu">
+        <HiMenu
+          className="menu-icon"
+          onClick={() => setShowMenu(!showMenu)}
+        />
+
+        {showMenu && (
+          <div className="dropdown">
+            <Link to="/" onClick={handleClick}>Home</Link>
+            <Link to="/experience" onClick={handleClick}>Experience</Link>
+            <Link to="/education" onClick={handleClick}>Education</Link>
+            <Link to="/research" onClick={handleClick}>Research</Link>
+            <Link to="/publications" onClick={handleClick}>Publications</Link>
+            <Link to="/achievements" onClick={handleClick}>Achievements & Activities</Link>
+            <Link to="/contact" onClick={handleClick}>Contact</Link>
+          </div>
+        )}
+      </div>
+    </nav>
+  );
 }
 
 export default Navbar;

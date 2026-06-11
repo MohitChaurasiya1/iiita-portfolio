@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
@@ -10,9 +11,12 @@ import Research from "./Pages/Research/Research";
 import Publications from "./Pages/Publications/Publications";
 import Contact from "./Pages/Contact/Contact";
 import AchievementsAndActivities from "./Pages/AchievementsActivities/AchievementsActivities";
+
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
+
       <div className="app">
         <Navbar />
 
@@ -23,7 +27,10 @@ function App() {
             <Route path="/education" element={<Education />} />
             <Route path="/research" element={<Research />} />
             <Route path="/publications" element={<Publications />} />
-            <Route path="/achievements" element={<AchievementsAndActivities />} />
+            <Route
+              path="/achievements"
+              element={<AchievementsAndActivities />}
+            />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
