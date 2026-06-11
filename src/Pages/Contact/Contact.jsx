@@ -46,7 +46,7 @@ function Contact() {
 
                     <div className="link-row">
                         <span>ORCID</span>
-                        <a href="#">Visit Profile</a>
+                        <a href="https://orcid.org/0000-0003-1919-3490">Visit Profile</a>
                     </div>
 
                     <div className="link-row">
