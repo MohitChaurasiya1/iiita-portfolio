@@ -2,7 +2,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="portfolio-footer">
       <p>© Dr. Sadhana Tiwari. All Rights Reserved.</p>
     </footer>
   );

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.navbar {
+.portfolio-navbar {
     height: 80px;
     background: #0f172a;
     display: flex;
@@ -18,34 +18,34 @@
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
-.logo {
+.portfolio-logo {
     color: white;
     font-size: 24px;
     font-weight: 700;
 }
 
-.nav-links {
+.portfolio-nav-links {
     display: flex;
     list-style: none;
     gap: 30px;
 }
 
-.nav-links a {
+.portfolio-nav-links a {
     text-decoration: none;
     color: white;
     font-size: 16px;
     transition: 0.3s;
 }
 
-.nav-links a:hover {
+.portfolio-nav-links a:hover {
     color: #38bdf8;
 }
 
-.mobile-menu {
+.portfolio-mobile-menu {
     display: none;
 }
 
-.menu-icon {
+.portfolio-menu-icon {
     color: white;
     font-size: 32px;
     cursor: pointer;
@@ -53,31 +53,31 @@
 
 /* Mobile */
 @media (max-width: 900px) {
-    .navbar {
+    .portfolio-navbar {
         height: 70px;
         padding: 0 15px;
     }
 
-    .logo {
+    .portfolio-logo {
         font-size: 18px;
     }
 
-    .nav-links {
+    .portfolio-nav-links {
         display: none;
     }
 
-    .mobile-menu {
+    .portfolio-mobile-menu {
         display: flex;
         align-items: center;
         position: relative;
     }
 
-    .menu-icon {
+    .portfolio-menu-icon {
         font-size: 30px;
         color: white;
     }
 
-    .dropdown {
+    .portfolio-dropdown {
         position: absolute;
         top: 45px;
         right: 0;
@@ -95,7 +95,7 @@
         box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     }
 
-    .dropdown a {
+    .portfolio-dropdown a {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -113,15 +113,15 @@
         transition: 0.3s;
     }
 
-    .dropdown a:last-child {
+    .portfolio-dropdown a:last-child {
         border-bottom: none;
     }
 
-    .dropdown a:visited {
+    .portfolio-dropdown a:visited {
         color: white;
     }
 
-    .dropdown a:hover {
+    .portfolio-dropdown a:hover {
         background: #1e293b;
         color: #38bdf8;
     }

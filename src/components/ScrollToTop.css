@@ -1,4 +1,4 @@
-.scroll-top {
+.portfolio-scroll-top {
   position: fixed;
   bottom: 30px;
   right: 30px;
@@ -24,7 +24,7 @@
   transition: 0.3s;
 }
 
-.scroll-top:hover {
+.portfolio-scroll-top:hover {
   background: #1d4ed8;
   transform: translateY(-3px);
 }

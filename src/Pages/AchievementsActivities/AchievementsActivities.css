@@ -1,32 +1,32 @@
-.achievements-page {
+.portfolio-achievements-page {
   min-height: 100vh;
   background: #f8fafc;
 }
 
-.achievements-header {
+.portfolio-achievements-header {
   background: #0f172a;
   color: white;
   text-align: center;
   padding: 80px 20px;
 }
 
-.achievements-header h1 {
+.portfolio-achievements-header h1 {
   font-size: 3rem;
   margin-bottom: 15px;
 }
 
-.achievements-header p {
+.portfolio-achievements-header p {
   max-width: 700px;
   margin: auto;
   color: #cbd5e1;
   line-height: 1.7;
 }
 
-.achievements-section {
+.portfolio-achievements-section {
   padding: 70px 8%;
 }
 
-.achievements-section h2 {
+.portfolio-achievements-section h2 {
   text-align: center;
   margin-bottom: 40px;
   color: #0f172a;
@@ -35,13 +35,13 @@
 
 /* Awards */
 
-.awards-grid {
+.portfolio-awards-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 25px;
 }
 
-.award-card {
+.portfolio-award-card {
   background: white;
   padding: 25px;
   border-radius: 10px;
@@ -49,35 +49,35 @@
   transition: 0.3s;
 }
 
-.award-card:hover {
+.portfolio-award-card:hover {
   transform: translateY(-5px);
   border-color: #38bdf8;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
-.award-card span {
+.portfolio-award-card span {
   color: #38bdf8;
   font-weight: 600;
 }
 
-.award-card h3 {
+.portfolio-award-card h3 {
   margin: 12px 0;
   color: #0f172a;
 }
 
-.award-card p {
+.portfolio-award-card p {
   color: #475569;
   line-height: 1.6;
 }
 
 /* Timeline */
 
-.timeline {
+.portfolio-timeline {
   max-width: 900px;
   margin: auto;
 }
 
-.timeline-item {
+.portfolio-timeline-item {
   display: flex;
   gap: 30px;
   margin-bottom: 30px;
@@ -85,18 +85,18 @@
   border-bottom: 1px solid #e2e8f0;
 }
 
-.timeline-year {
+.portfolio-timeline-year {
   min-width: 80px;
   font-weight: bold;
   color: #38bdf8;
 }
 
-.timeline-content h3 {
+.portfolio-timeline-content h3 {
   color: #0f172a;
   margin-bottom: 10px;
 }
 
-.timeline-content p {
+.portfolio-timeline-content p {
   color: #475569;
   line-height: 1.6;
 }

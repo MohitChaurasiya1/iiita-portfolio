@@ -132,8 +132,8 @@ function AchievementsAndActivities() {
   ];
 
  return (
-  <div className="achievements-page">
-    <section className="achievements-header">
+  <div className="portfolio-achievements-page">
+    <section className="portfolio-achievements-header">
       <h1>Achievements & Activities</h1>
       <p>
         Academic achievements, professional activities, workshops,
@@ -141,12 +141,12 @@ function AchievementsAndActivities() {
       </p>
     </section>
 
-    <section className="achievements-section">
+    <section className="portfolio-achievements-section">
       <h2>Awards & Recognition</h2>
 
-      <div className="awards-grid">
+      <div className="portfolio-awards-grid">
         {awards.map((award, index) => (
-          <div className="award-card" key={index}>
+          <div className="portfolio-award-card" key={index}>
             <span>{award.year}</span>
             <h3>{award.title}</h3>
             <p>{award.description}</p>
@@ -154,11 +154,11 @@ function AchievementsAndActivities() {
         ))}
       </div>
     </section>
-    <section className="achievements-section">
+    <section className="portfolio-achievements-section">
       <h2>Training & Hands-on Experience</h2>
 
-      <div className="awards-grid">
-        <div className="award-card">
+      <div className="portfolio-awards-grid">
+        <div className="portfolio-award-card">
           <span>2024</span>
           <h3>ISRO ISTRAC Training</h3>
           <p>
@@ -168,7 +168,7 @@ function AchievementsAndActivities() {
           </p>
         </div>
 
-        <div className="award-card">
+        <div className="portfolio-award-card">
           <span>2024</span>
           <h3>IIT Roorkee Certification Course</h3>
           <p>
@@ -178,17 +178,17 @@ function AchievementsAndActivities() {
         </div>
       </div>
     </section>
-    <section className="achievements-section">
+    <section className="portfolio-achievements-section">
       <h2>Professional Activities</h2>
 
-      <div className="timeline">
+      <div className="portfolio-timeline">
         {activities.map((activity, index) => (
-          <div className="timeline-item" key={index}>
-            <div className="timeline-year">
+          <div className="portfolio-timeline-item" key={index}>
+            <div className="portfolio-timeline-year">
               {activity.year}
             </div>
 
-            <div className="timeline-content">
+            <div className="portfolio-timeline-content">
               <h3>{activity.title}</h3>
               <p>{activity.description}</p>
             </div>

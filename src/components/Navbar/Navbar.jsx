@@ -19,10 +19,10 @@ function Navbar() {
   };
 
   return (
-    <nav className="navbar">
-      <div className="logo">Dr. Sadhana Tiwari</div>
+    <nav className="portfolio-navbar">
+      <div className="portfolio-logo">Dr. Sadhana Tiwari</div>
 
-      <ul className="nav-links">
+      <ul className="portfolio-nav-links">
         <li><Link to="/" onClick={handleClick}>Home</Link></li>
         <li><Link to="/experience" onClick={handleClick}>Experience</Link></li>
         <li><Link to="/education" onClick={handleClick}>Education</Link></li>
@@ -32,14 +32,14 @@ function Navbar() {
         <li><Link to="/contact" onClick={handleClick}>Contact</Link></li>
       </ul>
 
-      <div className="mobile-menu">
+      <div className="portfolio-mobile-menu">
         <HiMenu
-          className="menu-icon"
+          className="portfolio-menu-icon"
           onClick={() => setShowMenu(!showMenu)}
         />
 
         {showMenu && (
-          <div className="dropdown">
+          <div className="portfolio-dropdown">
             <Link to="/" onClick={handleClick}>Home</Link>
             <Link to="/experience" onClick={handleClick}>Experience</Link>
             <Link to="/education" onClick={handleClick}>Education</Link>
