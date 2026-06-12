@@ -198,8 +198,8 @@ function Publications() {
     },
   ];
     return (
-      <div className="publications-page">
-        <section className="publications-header">
+      <div className="portfolio-publications-page">
+        <section className="portfolio-publications-header">
           <h1>Publications</h1>
           <p>
             Research contributions in Data Mining, Machine Learning,
@@ -208,37 +208,37 @@ function Publications() {
           </p>
         </section>
 
-        <section className="stats-section">
-          <div className="stat-card">
+        <section className="portfolio-stats-section">
+          <div className="portfolio-stat-card">
             <h2>30+</h2>
             <p>Research Publications</p>
           </div>
-          <div className="stat-card">
+          <div className="portfolio-stat-card">
             <h2>9+</h2>
             <p>Journal Papers</p>
           </div>
 
-          <div className="stat-card">
+          <div className="portfolio-stat-card">
             <h2>9+</h2>
             <p>Conference Papers</p>
           </div>
-          <div className="stat-card">
+          <div className="portfolio-stat-card">
             <h2>2</h2>
             <p>Patent & Copyright</p>
           </div>
         </section>
 
-        <section className="publication-section">
+        <section className="portfolio-publication-section">
           <h2>Research Publications</h2>
 
-          <div className="publication-grid">
+          <div className="portfolio-publication-grid">
             {publications.map((paper, index) => (
-              <div key={index} className="publication-card">
-                <div className="publication-year">
+              <div key={index} className="portfolio-publication-card">
+                <div className="portfolio-publication-year">
                   {paper.year}
                 </div>
 
-                <div className="publication-content">
+                <div className="portfolio-publication-content">
                   <h3>{paper.title}</h3>
                   <p>{paper.venue}</p>
                 </div>
@@ -247,10 +247,10 @@ function Publications() {
           </div>
         </section>
 
-        <section className="publication-section">
+        <section className="portfolio-publication-section">
           <h2>Patent & Copyright Applications</h2>
 
-          <div className="patent-card">
+          <div className="portfolio-patent-card">
             <span>2026</span>
 
             <h3>
@@ -263,7 +263,7 @@ function Publications() {
             </p>
           </div>
 
-          <div className="patent-card">
+          <div className="portfolio-patent-card">
             <span>2026</span>
 
             <h3>

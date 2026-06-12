@@ -1,47 +1,47 @@
-.research-page {
+.portfolio-research-page {
   min-height: 100vh;
   background: #f8fafc;
 }
 
-.research-header {
+.portfolio-research-header {
   background: #0f172a;
   color: white;
   text-align: center;
   padding: 80px 20px;
 }
 
-.research-header h1 {
+.portfolio-research-header h1 {
   font-size: 3rem;
   margin-bottom: 15px;
 }
 
-.research-header p {
+.portfolio-research-header p {
   max-width: 700px;
   margin: auto;
   line-height: 1.7;
   color: #cbd5e1;
 }
 
-.research-section {
+.portfolio-research-section {
   padding: 70px 8%;
 }
 
-.research-section h2 {
+.portfolio-research-section h2 {
   text-align: center;
   margin-bottom: 40px;
   color: #0f172a;
   font-size: 2rem;
 }
 
-.research-grid,
-.project-grid {
+.portfolio-research-grid,
+.portfolio-project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 25px;
 }
 
-.research-card,
-.project-card {
+.portfolio-research-card,
+.portfolio-project-card {
   background: white;
   padding: 25px;
   border-radius: 10px;
@@ -49,20 +49,20 @@
   transition: 0.3s;
 }
 
-.research-card:hover,
-.project-card:hover {
+.portfolio-research-card:hover,
+.portfolio-project-card:hover {
   transform: translateY(-5px);
   border-color: #38bdf8;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
-.research-card h3,
-.project-card h3 {
+.portfolio-research-card h3,
+.portfolio-project-card h3 {
   color: #0f172a;
   margin-bottom: 10px;
 }
 
-.project-card p {
+.portfolio-project-card p {
   color: #475569;
   line-height: 1.6;
 }

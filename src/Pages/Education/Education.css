@@ -1,23 +1,23 @@
-.education-page {
+.portfolio-education-page {
   padding: 80px 40px;
   background: #ffffff;
 }
 
-.education-page h1 {
+.portfolio-education-page h1 {
   text-align: center;
   font-size: 48px;
   color: #0f172a;
   margin-bottom: 60px;
 }
 
-.education-timeline {
+.portfolio-education-timeline {
   max-width: 900px;
   margin: auto;
   border-left: 4px solid #2563eb;
   padding-left: 30px;
 }
 
-.education-card {
+.portfolio-education-card {
   background: #f8fafc;
   padding: 25px;
   border-radius: 12px;
@@ -26,7 +26,7 @@
   position: relative;
 }
 
-.education-card::before {
+.portfolio-education-card::before {
   content: "";
   position: absolute;
   left: -42px;
@@ -37,45 +37,45 @@
   border-radius: 50%;
 }
 
-.education-card span {
+.portfolio-education-card span {
   color: #2563eb;
   font-weight: 600;
   display: block;
   margin-bottom: 10px;
 }
 
-.education-card h3 {
+.portfolio-education-card h3 {
   font-size: 24px;
   color: #0f172a;
   margin-bottom: 10px;
 }
 
-.education-card h4 {
+.portfolio-education-card h4 {
   font-size: 18px;
   color: #334155;
   margin-bottom: 12px;
 }
 
-.education-card p {
+.portfolio-education-card p {
   color: #475569;
   line-height: 1.7;
   margin-bottom: 8px;
 }
 
 @media (max-width: 600px) {
-  .education-page {
+  .portfolio-education-page {
     padding: 50px 20px;
   }
 
-  .education-page h1 {
+  .portfolio-education-page h1 {
     font-size: 34px;
   }
 
-  .education-timeline {
+  .portfolio-education-timeline {
     padding-left: 20px;
   }
 
-  .education-card::before {
+  .portfolio-education-card::before {
     left: -32px;
   }
 }

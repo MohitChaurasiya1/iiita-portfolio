@@ -34,8 +34,8 @@ function Research() {
   ];
 
   return (
-    <div className="research-page">
-      <section className="research-header">
+    <div className="portfolio-research-page">
+      <section className="portfolio-research-header">
         <h1>Research</h1>
         <p>
           Exploring innovative solutions in data analytics, artificial
@@ -43,24 +43,24 @@ function Research() {
         </p>
       </section>
 
-      <section className="research-section">
+      <section className="portfolio-research-section">
         <h2>Research Interests</h2>
 
-        <div className="research-grid">
+        <div className="portfolio-research-grid">
           {researchAreas.map((area, index) => (
-            <div key={index} className="research-card">
+            <div key={index} className="portfolio-research-card">
               <h3>{area}</h3>
             </div>
           ))}
         </div>
       </section>
 
-      <section className="research-section">
+      <section className="portfolio-research-section">
         <h2>Current Research Directions</h2>
 
-        <div className="project-grid">
+        <div className="portfolio-project-grid">
           {projects.map((project, index) => (
-            <div key={index} className="project-card">
+            <div key={index} className="portfolio-project-card">
               <h3>{project.title}</h3>
               <p>{project.description}</p>
             </div>

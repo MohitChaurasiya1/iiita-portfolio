@@ -1,4 +1,4 @@
-.hero {
+.portfolio-hero {
     min-height: 90vh;
     display: flex;
     align-items: center;
@@ -7,30 +7,30 @@
     gap: 60px;
 }
 
-.hero-content {
+.portfolio-hero-content {
     max-width: 600px;
 }
 
-.hero-content h1 {
+.portfolio-hero-content h1 {
     font-size: 56px;
     margin-bottom: 15px;
     color: #0f172a;
 }
 
-.hero-content h3 {
+.portfolio-hero-content h3 {
     color: #2563eb;
     margin-bottom: 20px;
     font-size: 24px;
 }
 
-.hero-content p {
+.portfolio-hero-content p {
     font-size: 18px;
     line-height: 1.8;
     color: #475569;
     margin-bottom: 30px;
 }
 
-.hero-content button {
+.portfolio-hero-content button {
     padding: 14px 28px;
     border: none;
     background: #2563eb;
@@ -40,7 +40,7 @@
     font-size: 16px;
 }
 
-.hero-image img {
+.portfolio-hero-image img {
     width: 350px;
     height: 420px;
     object-fit: cover;
@@ -52,39 +52,39 @@
     transition: 0.3s ease;
 }
 
-.hero-image img:hover {
+.portfolio-hero-image img:hover {
     transform: translateY(-5px);
 }
 
 /* Tablet */
 @media (max-width: 900px) {
-    .hero {
+    .portfolio-hero {
         flex-direction: column;
         text-align: center;
         padding: 50px 20px;
         gap: 40px;
     }
 
-    .hero-content {
+    .portfolio-hero-content {
         max-width: 100%;
     }
 
-    .hero-content h1 {
+    .portfolio-hero-content h1 {
         font-size: 42px;
         line-height: 1.2;
     }
 
-    .hero-content h3 {
+    .portfolio-hero-content h3 {
         font-size: 22px;
         line-height: 1.4;
     }
 
-    .hero-content p {
+    .portfolio-hero-content p {
         font-size: 16px;
         line-height: 1.8;
     }
 
-    .hero-image img {
+    .portfolio-hero-image img {
         width: 280px;
         height: 340px;
     }
@@ -92,52 +92,52 @@
 
 /* Mobile */
 @media (max-width: 600px) {
-    .hero {
+    .portfolio-hero {
         padding: 30px 15px;
         gap: 30px;
     }
 
-    .hero-content h1 {
+    .portfolio-hero-content h1 {
         font-size: 32px;
         line-height: 1.2;
     }
 
-    .hero-content h3 {
+    .portfolio-hero-content h3 {
         font-size: 18px;
         line-height: 1.4;
     }
 
-    .hero-content p {
+    .portfolio-hero-content p {
         font-size: 15px;
         line-height: 1.7;
         margin-bottom: 20px;
     }
 
-    .hero-image img {
+    .portfolio-hero-image img {
         width: 220px;
         height: 280px;
     }
 }
 
-.stats {
+.portfolio-stats {
     padding: 80px 40px;
     text-align: center;
 }
 
-.stats h2 {
+.portfolio-stats h2 {
     font-size: 36px;
     margin-bottom: 40px;
     color: #0f172a;
 }
 
-.stats-container {
+.portfolio-stats-container {
     display: flex;
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
 }
 
-.stat-card {
+.portfolio-stat-card {
     width: 220px;
     padding: 30px 20px;
     background: #ffffff;
@@ -145,50 +145,50 @@
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
 }
 
-.stat-card h3 {
+.portfolio-stat-card h3 {
     font-size: 36px;
     color: #2563eb;
     margin-bottom: 10px;
 }
 
-.stat-card p {
+.portfolio-stat-card p {
     color: #475569;
 }
 
 @media (max-width: 600px) {
-    .stats {
+    .portfolio-stats {
         padding: 50px 15px;
     }
 
-    .stats h2 {
+    .portfolio-stats h2 {
         font-size: 28px;
     }
 
-    .stat-card {
+    .portfolio-stat-card {
         width: 100%;
     }
 }
 
-.publications {
+.portfolio-publications {
     padding: 80px 40px;
     background: #f8fafc;
     text-align: center;
 }
 
-.publications h2 {
+.portfolio-publications h2 {
     font-size: 36px;
     margin-bottom: 40px;
     color: #2563eb;
 }
 
-.publication-container {
+.portfolio-publication-container {
     display: flex;
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
 }
 
-.publication-card {
+.portfolio-publication-card {
     width: 340px;
     background: white;
     padding: 25px;
@@ -197,51 +197,51 @@
     text-align: left;
 }
 
-.publication-card h3 {
+.portfolio-publication-card h3 {
     font-size: 18px;
     margin-bottom: 15px;
     color: #0f172a;
     line-height: 1.5;
 }
 
-.publication-card p {
+.portfolio-publication-card p {
     color: #2563eb;
     font-weight: 600;
 }
 
 @media (max-width: 600px) {
-    .publications {
+    .portfolio-publications {
         padding: 50px 15px;
     }
 
-    .publications h2 {
+    .portfolio-publications h2 {
         font-size: 28px;
     }
 
-    .publication-card {
+    .portfolio-publication-card {
         width: 100%;
     }
 }
-.achievements {
+.portfolio-achievements {
   padding: 80px 40px;
   background: #f8fafc;
   text-align: center;
 }
 
-.achievements h2 {
+.portfolio-achievements h2 {
   font-size: 48px;
   margin-bottom: 50px;
   color: #2563eb;
 }
 
-.achievement-container {
+.portfolio-achievement-container {
   display: flex;
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
 }
 
-.achievement-card {
+.portfolio-achievement-card {
   width: 400px;
   background: white;
   padding: 30px;
@@ -249,19 +249,19 @@
   box-shadow: 0 8px 25px rgba(0,0,0,0.08);
 }
 
-.achievement-card h3 {
+.portfolio-achievement-card h3 {
   font-size: 22px;
   color: #0f172a;
   margin-bottom: 15px;
 }
 
-.achievement-card p {
+.portfolio-achievement-card p {
   color: #2563eb;
   font-weight: 600;
 }
 
 @media (max-width: 768px) {
-  .achievement-card {
+  .portfolio-achievement-card {
     width: 100%;
   }
 }

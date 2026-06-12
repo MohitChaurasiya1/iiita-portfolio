@@ -4,8 +4,8 @@ import hero from "../../../public/hero.jpg";
 function Home() {
     return (
         <>
-            <section className="hero">
-                <div className="hero-content">
+            <section className="portfolio-hero">
+                <div className="portfolio-hero-content">
                     <h1>Dr. Sadhana Tiwari</h1>
 
                     <h3>
@@ -24,19 +24,19 @@ function Home() {
                     </p>
                 </div>
 
-                <div className="hero-image">
+                <div className="portfolio-hero-image">
                     <img src={hero} alt="Dr. Sadhana Tiwari" />
                 </div>
             </section>
 
             {/* Featured Publications */}
 
-                    <section className="publications">
+                    <section className="portfolio-publications">
                         <h2>Featured Publications</h2>
 
-                        <div className="publication-container">
+                        <div className="portfolio-publication-container">
 
-                            <div className="publication-card">
+                            <div className="portfolio-publication-card">
                                 <h3>
                                     Deep Semantics for Structured Data:
                                     Hybrid LLM-Based Models for Temporal Forecasting
@@ -44,7 +44,7 @@ function Home() {
                                 <p>ICONIP 2025</p>
                             </div>
 
-                            <div className="publication-card">
+                            <div className="portfolio-publication-card">
                                 <h3>
                                     A diagnosis and treatment of liver diseases:
                                     integrating batch processing, rule-based event
@@ -53,7 +53,7 @@ function Home() {
                                 <p>Evolving Systems, 2025</p>
                             </div>
 
-                            <div className="publication-card">
+                            <div className="portfolio-publication-card">
                                 <h3>
                                     Ontology-Based Forest Fire Management Using
                                     Complex Event Processing and Large Language Models
@@ -65,17 +65,17 @@ function Home() {
                     </section>
                     {/* Recent Achievements */}
 
-                    <section className="achievements">
+                    <section className="portfolio-achievements">
                         <h2>Recent Achievements</h2>
 
-                        <div className="achievement-container">
+                        <div className="portfolio-achievement-container">
 
-                            <div className="achievement-card">
+                            <div className="portfolio-achievement-card">
                                 <h3>IEEE VIS 2023 Inclusivity and Diversity Scholarship</h3>
                                 <p>Scholarship Award</p>
                             </div>
 
-                            <div className="achievement-card">
+                            <div className="portfolio-achievement-card">
                                 <h3>Best Research Presentation Award</h3>
                                 <p>ASCIS 2024</p>
                             </div>
